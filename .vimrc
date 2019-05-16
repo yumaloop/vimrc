@@ -1,4 +1,4 @@
-"vim setting
+"vimrc
 
 
 "文字コードをUFT-8に設定
