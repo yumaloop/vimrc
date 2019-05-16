@@ -1,4 +1,4 @@
-"vim setting
+"vimrc
 
 
 "文字コードをUFT-8に設定
@@ -13,7 +13,6 @@ set autoread
 set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
-
 
 
 " 見た目系
@@ -50,13 +49,11 @@ set tabstop=4
 set shiftwidth=4
 
 
-
 " 操作系
 " Enterすると右括弧を補完
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
 inoremap [<Enter> []<Left><CR><ESC><S-o>
 inoremap (<Enter> ()<Left><CR><ESC><S-o>
-
 
 
 " 検索系
