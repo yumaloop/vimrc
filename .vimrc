@@ -15,7 +15,6 @@ set hidden
 set showcmd
 
 
-
 " 見た目系
 " 行番号を表示
 set number
@@ -50,13 +49,11 @@ set tabstop=4
 set shiftwidth=4
 
 
-
 " 操作系
 " Enterすると右括弧を補完
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
 inoremap [<Enter> []<Left><CR><ESC><S-o>
 inoremap (<Enter> ()<Left><CR><ESC><S-o>
-
 
 
 " 検索系
